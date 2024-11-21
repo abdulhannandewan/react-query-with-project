@@ -1,0 +1,14 @@
+{
+  "name": "server",
+  "version": "1.0.0",
+  "description": "this is a mook API Server created with Json-Server",
+  "main": "index.js",
+  "scripts": {
+    "start": "json-server --watch ./database/data.json"
+  },
+  "author": "\"Abdul\"",
+  "license": "ISC",
+  "dependencies": {
+    "json-server": "^1.0.0-beta.3"
+  }
+}
